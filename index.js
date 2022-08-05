@@ -89,5 +89,11 @@ module.exports = {
         '@typescript-eslint/no-empty-function': ['error', { allow: ['arrowFunctions'] }],
       },
     },
+    {
+      files: ['*.ts', '*.tsx'],
+      rules: {
+        "no-unused-vars": "off",
+      },
+    },
   ],
 }
