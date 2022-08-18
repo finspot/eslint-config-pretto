@@ -93,6 +93,8 @@ module.exports = {
       files: ['*.ts', '*.tsx'],
       rules: {
         "no-unused-vars": "off",
+        "no-redeclare": "off",
+        "@typescript-eslint/no-redeclare": ["warn", { ignoreDeclarationMerge: false }],
       },
     },
   ],
