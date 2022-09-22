@@ -1,6 +1,6 @@
 {
   "name": "@pretto/eslint-config-pretto",
-  "version": "1.3.1",
+  "version": "1.4.0",
   "repository": "git@github.com:finspot/eslint-config-pretto.git",
   "files": [
     "index.js"
