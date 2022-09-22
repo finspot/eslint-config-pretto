@@ -15,7 +15,7 @@ module.exports = {
     browser: true,
     node: true,
     commonjs: true,
-    es6: true ,
+    es6: true,
   },
 
   extends: [
@@ -92,10 +92,11 @@ module.exports = {
     {
       files: ['*.ts', '*.tsx'],
       rules: {
-        "no-unused-vars": "off",
-        "no-redeclare": "off",
-        "@typescript-eslint/no-redeclare": ["warn", { ignoreDeclarationMerge: false }],
+        'no-unused-vars': 'off',
+        'no-redeclare': 'off',
+        'react/prop-types': 'off',
+        '@typescript-eslint/no-redeclare': ['warn', { ignoreDeclarationMerge: false }],
       },
     },
   ],
-}
+};
